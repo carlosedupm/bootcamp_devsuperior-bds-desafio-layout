@@ -1,9 +1,9 @@
+import 'assets/styles/custom.scss';
+import Home from 'pages/Home';
 import './App.css';
 
 function App() {
-
-return  <h1> Hello Carros Top</h1>;
-    
+  return <Home />
 }
 
 export default App;
