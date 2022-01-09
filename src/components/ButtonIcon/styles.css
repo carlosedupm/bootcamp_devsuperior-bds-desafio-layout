@@ -1,12 +1,12 @@
 .btn-icon{
-  font-size: 10px;
-  
+  font-size: 9px;
   font-weight: bold;
 }
-.btn-icon p {
+.btn-icon span {
   padding: 12px 37px;
   line-height: 16,41px;
   background-color: #00285F;
   color: rgba(255, 255, 255, 1);
   border-radius: 5px;
+  
 }

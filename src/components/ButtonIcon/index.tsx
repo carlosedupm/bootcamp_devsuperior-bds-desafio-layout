@@ -5,7 +5,7 @@ const ButtonIcon = () => {
     
     
     <button className="btn btn-icon">
-        <p>VER CATÁLOGO</p>
+        <span>VER CATÁLOGO</span>
       </button>
       
   );

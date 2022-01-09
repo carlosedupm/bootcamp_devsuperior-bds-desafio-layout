@@ -40,11 +40,27 @@
   flex-direction: column-reverse;
   padding: 28px 63px;
   background-color: #EDEDED;;
-  text-align: center;
-  text-align: center;
-  margin: 10px ;
   border-radius: 10px;
+  margin: 10px ;
+  
+}
+.btn-content-container p{
+  font-size: 14px;
+  line-height: 21,09px;
+  text-align: center;
+  margin: 5px ;
 }
 
+@media ( min-width: 576px){
 
+  .home-container{
+    font-size: 36px;
+  }
+  .home-container p {
+    font-size: 18px;
+
+  }
+  
+
+}
 
