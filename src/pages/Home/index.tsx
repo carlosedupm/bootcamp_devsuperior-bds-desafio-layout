@@ -23,8 +23,8 @@ const Home = () => {
         </div>
       </div>
       <div className="btn-content-container">
-        <p>Comece agora a navegar</p>
           <ButtonIcon />
+        <p>Comece agora a navegar</p>
       </div>
       
       

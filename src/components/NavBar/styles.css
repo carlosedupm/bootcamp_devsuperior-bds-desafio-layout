@@ -1,5 +1,5 @@
 .main-nav{
-  padding-left: 88px;
+  padding-left: 10px;
   min-height: 70px;
   
 }
@@ -28,4 +28,20 @@
 .main-menu a.active{
   font-weight: bold;
   color: #00285F;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: rgba(0, 0, 0, 0);
+}
+
+@media (min-width: 768px){
+  .navbar-expand-md .navbar-collapse {
+    
+     padding-left: 400px;
+     
+  }
+  .main-nav {
+    padding-left: 10px;
+    min-height: 50px;
+}
 }

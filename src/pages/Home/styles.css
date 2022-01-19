@@ -37,7 +37,7 @@
 
 .btn-content-container{
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   padding: 28px 63px;
   background-color: #EDEDED;;
   border-radius: 10px;
@@ -53,6 +53,10 @@
 
 @media ( min-width: 576px){
 
+  .btn-content-container{
+    padding-left: 100px ;
+    flex-direction: unset;
+  }
   .home-container{
     font-size: 36px;
   }
