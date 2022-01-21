@@ -13,8 +13,12 @@
 
 @media ( min-width: 576px){
 
+  .btn-icon{
+    font-size: 1.01em;
+}
+
   .btn-icon span {
-    padding: 12px 55px;
+    padding: 12px 25px;
   }
 
 }

@@ -34,7 +34,13 @@
 	border-color: rgba(0, 0, 0, 0);
 }
 
+
 @media (min-width: 768px){
+
+  .main-menu {
+    font-size: 1.1em;
+  }
+
   .navbar-expand-md .navbar-collapse {
     
      padding-left: 400px;

@@ -42,29 +42,49 @@
   background-color: #EDEDED;;
   border-radius: 10px;
   margin: 10px ;
-  
+  font-size: 14px;
 }
 .btn-content-container p{
-  font-size: 14px;
   line-height: 21,09px;
   text-align: center;
   margin: 5px ;
 }
 
+
 @media ( min-width: 576px){
 
+  .home-content-container h1 {
+    font-size: 1.5em;
+}
+  .home-container p {
+    font-size: 1em;
+  }
+
+  
   .btn-content-container{
     padding-left: 100px ;
     flex-direction: unset;
-  }
-  .home-container{
-    font-size: 36px;
-  }
-  .home-container p {
-    font-size: 18px;
-
+    font-size: 1.01em;
   }
   
-
+  
+  .home-image-container{
+    padding: 50px;
+  }
+  
 }
 
+@media ( min-width: 768px){
+
+  .home-content-container {
+    font-size: 1.01em;
+  }
+
+  .home-content-container p{
+    padding: 10px 90px 29px;
+  }
+  .home-image-container{
+    padding: 20px 190px;
+  }
+
+}
