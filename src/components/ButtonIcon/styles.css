@@ -22,3 +22,9 @@
   }
 
 }
+
+@media (min-width: 1200px) {
+  .btn-icon span{
+    font-size: 0.9em;
+  }
+}

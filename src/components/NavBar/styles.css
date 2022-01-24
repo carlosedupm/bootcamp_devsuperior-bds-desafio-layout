@@ -51,3 +51,19 @@
     min-height: 50px;
 }
 }
+
+@media ( min-width: 992px){
+  .navbar-expand-md .navbar-collapse {
+    padding-left: 640px;
+}
+}
+
+@media (min-width: 1200px) {
+  .main-nav {
+    padding-left: 135px;
+    min-height: 50px;
+}
+  .navbar-expand-md .navbar-collapse {
+    padding-left: 640px;
+}
+}
